@@ -29,15 +29,4 @@ Each container has a corresponding service connected to the Kubernetes API serve
    - **Webapp Service**: Exposes the web application via a NodePort.
    - **MongoDB Service**: Exposes the MongoDB database on the internal Kubernetes network.
 
-## Setup Instructions
 
-### Prerequisites:
-- Install Minikube: [Minikube installation guide](https://minikube.sigs.k8s.io/docs/)
-- Install kubectl: [kubectl installation guide](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-- Docker (used with Minikube for container runtime)
-
-### Steps to Deploy:
-
-1. **Start Minikube**:
-   ```bash
-   minikube start --driver=docker
